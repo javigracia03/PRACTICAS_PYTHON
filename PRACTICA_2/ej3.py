@@ -1,2 +1,6 @@
 nombre = input("Por favor, dime tu nombre: ")
-print("¡Hola " + nombre + "!") # Usamos el operador + para concatenar las cadenas
+print("¡Hola " + nombre + "!")
+
+numero_letras = len(nombre)
+
+print(f"Tu nombre tiene {numero_letras} letras")
